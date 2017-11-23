@@ -1,3 +1,8 @@
+canvas {
+	position: fixed;
+	top: 0px;
+}
+
 @font-face {
 	font-family: 'si';
 	src: url('fonts/socicon.eot');
