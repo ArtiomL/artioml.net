@@ -201,3 +201,15 @@
 	-webkit-animation-name: fadeInDown;
 	animation-name: fadeInDown;
 }
+
+.marTop15 {
+	margin-top: 15%;
+}
+
+.marTop30 {
+	margin-top: 30px;
+}
+
+.txtRight {
+	text-align: right;
+}
