@@ -3,20 +3,20 @@ particlesJS('particles-js',
 {
 	"particles": {
 		"number": {
-			"value": 33,
+			"value": 40,
 			"density": {
 				"enable": true,
 				"value_area": 800
 			}
 		},
 		"color": {
-			"value": "#aaaaaa"
+			"value": "#999999"
 		},
 		"shape": {
 			"type": "circle",
 			"stroke": {
 				"width": 0,
-				"color": "#aaaaaa"
+				"color": "#999999"
 			},
 			"polygon": {
 				"nb_sides": 5
@@ -45,7 +45,7 @@ particlesJS('particles-js',
 		"line_linked": {
 			"enable": true,
 			"distance": 170,
-			"color": "#aaaaaa",
+			"color": "#999999",
 			"opacity": 0.4,
 			"width": 1
 		},
