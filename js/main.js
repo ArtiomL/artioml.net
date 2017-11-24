@@ -65,7 +65,7 @@ particlesJS('particles-js',
 		}
 	},
 	"interactivity": {
-		"detect_on": "canvas",
+		"detect_on": "window",
 		"events": {
 			"onhover": {
 				"enable": true,
@@ -92,7 +92,7 @@ particlesJS('particles-js',
 				"speed": 3
 			},
 			"repulse": {
-				"distance": 200,
+				"distance": 100,
 				"duration": 0.4
 			},
 			"push": {
