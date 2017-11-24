@@ -3,6 +3,8 @@ body {
 }
 
 canvas {
+	height: 100vh;
+	z-index: -10;
 	position: fixed;
 	top: 0px;
 }
