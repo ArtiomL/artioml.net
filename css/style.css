@@ -1,7 +1,3 @@
-body {
-	color: #000;
-}
-
 canvas {
 	height: 100vh;
 	z-index: -10;
@@ -11,21 +7,10 @@ canvas {
 
 @font-face {
 	font-family: 'si';
-	src: url('fonts/socicon.eot');
-	src: url('fonts/socicon.eot?#iefix') format('embedded-opentype'),
-		 url('fonts/socicon.woff') format('woff'),
-		 url('fonts/socicon.ttf') format('truetype'),
-		 url('fonts/socicon.svg#icomoonregular') format('svg');
+	src: url('fonts/socicon.woff') format('woff'),
+		 url('fonts/socicon.woff2') format('woff2');
 	font-weight: normal;
 	font-style: normal;
- 
-}
- 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-	@font-face {
-		font-family:si;
-		src: url(fonts/socicon.svg) format(svg);
-	}
 }
 
 .soc {
@@ -61,7 +46,6 @@ canvas {
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
 
-	overflow:hidden;
 	text-decoration:none;
 	text-align:center;
 	display:block;
@@ -81,8 +65,8 @@ canvas {
 
 .soc a:hover {
 	z-index: 2;
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
+	-webkit-transform: scale(1.08);
+	transform: scale(1.08);
 }
 
 .soc-icon-last{
@@ -93,39 +77,32 @@ canvas {
 	background-color: #3371b7;
 }
 .soc-linkedin:before {
-	content:'j';
+	content:'\e04c';
 }
 .soc-youtube {
 	background-color: #e02a20;
 }
 .soc-youtube:before {
-	content:'r';
+	content:'\e0a5';
 }
 .soc-twitter {
 	background-color: #4da7de;
 }
 .soc-twitter:before {
-	content:'a';
+	content:'\e08d';
 }
 .soc-reddit {
 	background-color: #e74a1e;
 }
 .soc-reddit:before {
-	content:'C';
+	content:'\e06c';
 }
 .soc-github {
 	background-color: #373737;
 }
 .soc-github:before {
-	content:'Q';
+	content:'\e032';
 }
-.soc-email1 {
-	background-color: #578AD6;
-}
-.soc-email1:before {
-	content:'<';
-}
-
 
 
 .animate {
